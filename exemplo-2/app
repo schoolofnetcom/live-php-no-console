@@ -10,5 +10,6 @@ use Symfony\Component\Console\Application;
 $application = new Application();
 
 $application->add(new SON\Commands\ClassGenerator);
+$application->add(new SON\Commands\Weather);
 
 $application->run();
